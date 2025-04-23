@@ -13,5 +13,5 @@ years_experience = st.number_input("Masukkan Years of Experience:", min_value=0.
 
 #Prediksi Salary
 if st.button("Prediksi Salary"):
-    Salary= lin_reg_loaded.predict([[Years of Experience]])
-    st.write(f"Salary seseorang setelah bekerja selama {Years of Experience} tahun adalah ${Salary[0]:,.2f}")
+    Salary= lin_reg_loaded.predict([[Years_of_Experience]])
+    st.write(f"Salary seseorang setelah bekerja selama {Years_of_Experience} tahun adalah ${Salary[0]:,.2f}")
